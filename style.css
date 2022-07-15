@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans Narrow"),
+    url(/web/BarberShop-HTMLAcademy/fonts/web/ptsansnarrow.woff),
+    url(/web/BarberShop-HTMLAcademy/fonts/web/ptsansnarrow.woff2);
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: bold;
+  font-weight: 800;
+  src: local("PT Sans Narrow"),
+    url(/web/BarberShop-HTMLAcademy/fonts/web/ptsansnarrowbold.woff),
+    url(/web/BarberShop-HTMLAcademy/fonts/web/ptsansnarrow.woff2);
+}
+
+body {
+  font-family: "PT Sans Narrow";
+}
