@@ -1,3 +1,28 @@
 body {
   font-family: "PT Sans Narrow";
+  background-image: url(/web/BarberShop-HTMLAcademy/svg/Layer.png);
+}
+nav.main-navigation ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul.main-nav {
+  list-style-type: none;
+  font-size: 16pt;
+  gap: 36px;
+  justify-content: center;
+  background-color: black;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+ul.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+ul.user-nav {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 16pt;
+  color: #ffffff;
 }
